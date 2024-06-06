@@ -24,7 +24,7 @@ function App() {
         <Titulo></Titulo>
         </div>
         <div class='container'>
-          <Formulario className="formulario"></Formulario>
+          <Formulario setTareas={setTareas} tarea={tarea} className="formulario"/>
         </div>
 
      

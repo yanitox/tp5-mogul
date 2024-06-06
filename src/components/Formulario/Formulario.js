@@ -29,7 +29,7 @@ return (
         <label>Ingresar tarea</label>
      <input type="text" id="tarea" required placeholder='kali jali'></input>
      <div className='botonjs'>
-     <Boton className='botonFormulario' type="submit" text="Agregar tarea"></Boton>
+     <Boton className='botonFormulario' type="submit" text="Agregar tarea"></Boton> 
      <Boton className='botonFormulario' type="submit" text="Tarea mas rapida"></Boton>
      </div>
      
