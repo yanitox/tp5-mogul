@@ -26,10 +26,6 @@ function App() {
         <div class='container'>
           <Formulario setTareas={setTareas} tarea={tarea} className="formulario"/>
         </div>
-
-     
-       
-        
       </>
      
     

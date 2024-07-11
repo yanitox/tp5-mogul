@@ -6,11 +6,17 @@ const Todo = (tarea) => {
         estado = !estado;
     }
     if (estado){
-        const kali = "tachado";
+        const flecha = "tachado";
     }
     return (
-        <input class = {estado} type = "checkbox">tarea</input>
-    )
+        <>
+        <div className="papafritaa"> 
+       
+        <li className="lineaa" class = {estado} type = "checkbox">{tarea.target}</li>
+       
+        </div>
+        </>
+        )
 }
 
 export default Todo;
